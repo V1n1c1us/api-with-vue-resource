@@ -10,6 +10,7 @@ import VueResource from 'vue-resource'
 // Import Keen-ui
 import KeenUI from 'keen-ui'
 import 'keen-ui/dist/keen-ui.css'
+import 'keen-ui/dist/keen-ui.min.css'
 
 Vue.config.productionTip = false
 Vue.use(VueResource)
