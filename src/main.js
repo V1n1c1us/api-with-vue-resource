@@ -4,7 +4,17 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// Import vue-resource
+import VueResource from 'vue-resource'
+
+// Import Keen-ui
+import KeenUI from 'keen-ui'
+import 'keen-ui/dist/keen-ui.css'
+
 Vue.config.productionTip = false
+Vue.use(VueResource)
+Vue.use(KeenUI)
+
 
 /* eslint-disable no-new */
 new Vue({
